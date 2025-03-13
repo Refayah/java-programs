@@ -10,5 +10,6 @@ public class Insertingstring {
         System.out.println("enter the index");
         int ind=sc.nextInt();
         System.out.println(str.substring(0,ind)+n+str.substring(ind));
+        sc.close();
     }
 }
